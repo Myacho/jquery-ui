@@ -1,0 +1,124 @@
+body{
+	padding: 0;
+	margin: 40px 0 0 0;
+	font-size: 12px;
+	font-family: "宋体";
+	background: white;
+}
+/*ui里的css样式可以在这里修改，右键检查元素查看原来的样式*/
+/*button的常规样式*/
+/*.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+	
+}*/
+/*鼠标悬停的样式*/
+/*.ui-state-hover,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+	
+}*/
+/*鼠标点击的样式*/
+/*.ui-state-active,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+	
+}*/
+/*提示工具的文本颜色*/
+/*.ui-tooltip{
+	color: red;
+}*/
+/*.ch{
+	color: red;
+}*/
+/*邮箱自动补全的悬停背景色*/
+/*.ui-menu .ui-menu-item-wrapper{
+	background: rgba(102,102,102,0.3);
+	color: #666;
+}*/
+/*日历ui的今天单元格样式*/
+/*.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #eee;
+    color: red;
+}*/
+/*日历ui的选定单元格样式*/
+/*.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    color: black;
+}*/
+.a{
+	font-size:20px ;
+}
+#header{
+	width: 100%;
+	height: 40px;
+	/*background: url(../img/header-bg.png);*/
+	background: rgba(102,102,102,0.3);
+	position: absolute;
+	top: 0;
+}
+#header .header_main{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+#header .header_main h1{
+	font-size: 20px;
+	margin: 0;
+	padding: 0 10px;
+	color: #666666;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	/*margin-right: 10px;*/
+}
+#header .header_search{
+	float: left;
+	padding: 7px 0 0 0;
+	/*margin-right: 10px;*/
+}
+#header .header_search .search{
+	width: 300px;
+	height: 24px;
+	font-size: 14px;
+	color: #666;
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	text-indent: 5px;
+}
+#header .header_button{
+	padding: 7px;
+	float: left;
+}
+#header .header-member{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	font-size: 14px;
+}
+#header .header-member a{
+	text-decoration: none;
+	color: #555;
+	font-size: 14px;
+}
+#reg{
+	padding: 15px 0 0 20px;
+}
+#reg p{
+	padding: 0;
+	margin: 10px 0;
+}
+#reg p label{
+	font-size: 14px;
+	color: #666;
+}
+#reg .star{
+	font-size: 20px;
+	color: red;
+}
+#reg .text{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	color: #666;
+	background: #fff;
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 5px;
+	font-size: 13px;
+}
